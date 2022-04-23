@@ -1,9 +1,12 @@
 import React from 'react'
+import { HeaderCnt, HeaderImg } from '../assets/styles/HeaderStyle'
+import mapaMundi from '../assets/images/mapa-mundi.jpg'
 
 export default function Header({ pageTitle='Nome da página' }) {
   return (
-    <header>
+    <HeaderCnt>
       <h1>{pageTitle}</h1>
-    </header>
+      <HeaderImg src={mapaMundi} alt="" />
+    </HeaderCnt>
   )
 }

@@ -1,9 +1,10 @@
 import React from 'react'
+import { FooterCnt } from '../assets/styles/FooterStyle'
 
 export default function Footer() {
   return (
-    <footer>
+    <FooterCnt>
       <p>Todos os direitos reservados</p>
-    </footer>
+    </FooterCnt>
   )
 }
